@@ -51,24 +51,28 @@ function App() {
     const prevText = text;
     const newText = removeExtraSpaces(prevText);
     setText(newText);
+    console.log(newText);
   };
 
   const handleUppercase = () => {
     const prevText = text;
     const newText = makeUppercase(prevText);
     setText(newText);
+    console.log(newText);
   };
 
   const handleLowercase = () => {
     const prevText = text;
     const newText = makeLowercase(prevText);
     setText(newText);
+    console.log(newText);
   };
 
   const handleHexadecimal = () => {
     const prevText = text;
     const newText = stringToHexadecimal(prevText);
     setText(newText);
+    console.log(newText);
   };
 
   const removeExtraSpaces = (inputString) => {
