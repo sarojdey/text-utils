@@ -44,7 +44,7 @@ function App() {
   const [text, setText] = useState("");
   const handleTextChange = (e) => {
     setText(e.target.value);
-    console.log(e.target, value);
+    console.log(e.target.value);
   };
 
   const handleRemoveExtraSpaces = () => {
