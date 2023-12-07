@@ -100,14 +100,14 @@ function App() {
   return (
     <>
       <StyledBox>
-        <StyledText
+        <img
+          src="src\assets\logo.png"
           style={{
-            marginTop: "10px",
+            marginTop: "20px",
+            height: "70px",
           }}
-          variant="h3"
-        >
-          Text Utilities
-        </StyledText>
+        ></img>
+
         <StyledArea>
           <input
             type="text"
